@@ -1,0 +1,4 @@
+#Quelltexte
+
+Vorlage: ITA21a - Spieleprogammierung / Ordner / Game 1.1.4 / start_20220927.py
+Spezifische Bereiche des Spiels (Haupteil): https://youtube.com/playlist?list=PLxZI4CJBTZmDC7MqhzMi2RBRSYaxa2F7v
