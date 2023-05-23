@@ -60,8 +60,7 @@ class Ball(pygame.sprite.Sprite):
         self.rect = self.image.get_rect()
         self.rect.topleft = (x, y)
         self.vel = [0, 0]
-        self.game_over = False #Flag to track game over state
-
+        self.game_over = False 
     def update(self, paddle, bricks):
         
         #Bewegung des Balles basierend auf der Geschwindigkeit
@@ -200,8 +199,7 @@ def main():
                     paddle.vel[0] = 0
 
             all_bricks_destroyed = all(not brick.visible for brick in bricks)
-        if all_bricks_destroyed:
-            # Display "You did it!" message
+        if all_bricks_destroyed
             message = Settings.FONT.render("Herzlichen Glückwunsch, Sie haben das Spiel erfolgreich beendet!", True, (255, 255, 255))
             message_rect = message.get_rect(center=Settings.SCREENRECT.center)
             screen.blit(message, message_rect)
